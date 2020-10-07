@@ -60,7 +60,10 @@ body {
 .filters .panel-body {
   padding: 0;
 }
-
+.panel-default>.panel-heading {
+  background-color: #e98e51;
+  color: #ebebeb;
+}
 .filters {
   margin-top: 10px;
 }
@@ -118,14 +121,15 @@ select {
 }
 
 /* input placeholder color changes */
+
 .form-control::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  color: #8e979f;
+  color: #79a5cc;
 }
 
 .form-control::-moz-placeholder {
   /* Firefox 19+ */
-  color: #8e979f;
+  color: #6f9cc4;
 }
 
 .form-control:-ms-input-placeholder {
@@ -137,7 +141,11 @@ select {
   /* Firefox 18- */
   color: #8e979f;
 }
-
+.btn-primary {
+  color: #ffffff;
+  background-color: #e98e51;
+  border-color: transparent;
+}
 /* media queries which will only be activated at specific screen sizes */
 @media (max-width: 800px) {
   #table-area td {
