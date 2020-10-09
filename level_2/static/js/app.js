@@ -2,8 +2,10 @@
 var tableData = data;
 var tbody = d3.select('tbody');
 var button = d3.select('button');
+var inputs = d3.selectAll('input');
 
 populateTable(tableData);
+inputs.on('change',handleChange);
 button.on('click',handleClick);
 
 function populateTable(data) {
@@ -19,13 +21,16 @@ function populateTable(data) {
 };
 
 function handleClick() {
-    var date = d3.select('input').property('value');
-    var filteredData = data;
-    
-    if(date){
-        var filteredData = data.filter(obj => obj.datetime == date);
-        d3.select('input').property('value','');
-    };
-
-    populateTable(filteredData);
+    inputs.property('value','');
+    tableData = data;    
+    populateTable(tableData);
 };
+
+function handleChange() {
+    var key = d3.select(this).property('id');
+    var value = d3.select(this).property('value');
+
+    tableData = tableData.filter(obj => obj[key] == value);
+    populateTable(tableData);
+};
+

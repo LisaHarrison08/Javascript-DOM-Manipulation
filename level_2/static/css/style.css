@@ -60,7 +60,10 @@ body {
 .filters .panel-body {
   padding: 0;
 }
-
+.panel-default>.panel-heading {
+  background-color: #e98e51;
+  color: #ebebeb;
+}
 .filters {
   margin-top: 10px;
 }
