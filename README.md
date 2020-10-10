@@ -1,5 +1,8 @@
 # JavaScript and DOM Manipulation
 
+## (Level 2) Link to search for UFO sightings:
+https://lisaharrison08.github.io/Javascript_Challenge/
+
 ## Background
 
 WAKE UP SHEEPLE! The extra-terrestrial menace has come to Earth and we here at `ALIENS-R-REAL` have collected all of the eye-witness reports we could to prove it! This information is now transmitted online for the world to see so the matter can finally be put to rest.
