@@ -1,7 +1,7 @@
 # JavaScript and DOM Manipulation
 
 ## (Level 2) Link to search for UFO sightings:
-https://lisaharrison08.github.io/Javascript_Challenge/
+https://ufo-sightings-js.herokuapp.com
 
 ## Background
 
@@ -11,7 +11,7 @@ For this challenge, code was written that created a table dynamically based upon
 
 ## Project Overview
 
-### Level 1: Automatic Table and Date Search
+### Automatic Table and Date Search
 
 * Created a basic HTML web page.
 
@@ -21,7 +21,7 @@ For this challenge, code was written that created a table dynamically based upon
 
 * Used a date form in the HTML document and wrote JavaScript code that listened for events and searched through the `date/time` column to find rows that matched the user input.
 
-### Level 2: Multiple Search Categories
+###  Multiple Search Categories
 
 * Using multiple `input` tags and/or select dropdowns, wrote JavaScript code so the user could set multiple filters and search for UFO sightings using the following criteria based on the table columns:
 
