@@ -67,7 +67,7 @@ select {
   display: block;
   width: 100%;
   padding: 8px;
-  color: #8e979f;
+  color: #4c9982;
   outline: none;
 }
 
@@ -96,7 +96,7 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/ufo1.jpg");
+  background-image: url("../images/ufo.jpg");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
@@ -118,22 +118,22 @@ select {
 /* input placeholder color changes */
 .form-control::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  color: #8e979f;
+  color: #4c9982;
 }
 
 .form-control::-moz-placeholder {
   /* Firefox 19+ */
-  color: #8e979f;
+  color: #4c9982;
 }
 
 .form-control:-ms-input-placeholder {
   /* IE 10+ */
-  color: #8e979f;
+  color: #4c9982;
 }
 
 .form-control:-moz-placeholder {
   /* Firefox 18- */
-  color: #8e979f;
+  color: #4c9982;
 }
 
 /* media queries which will only be activated at specific screen sizes */
@@ -151,7 +151,7 @@ select {
   #table-area tr td:first-child {
     font-size: 1.8em;
     font-weight: bold;
-    background: #1b3146;
+    background: #1a7c7c;
   }
 
   #table-area tr td:last-child {
