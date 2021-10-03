@@ -1,13 +1,13 @@
 # JavaScript and DOM Manipulation
 
-## (Level 2) Link to search for UFO sightings:
-https://ufo-sightings-js.herokuapp.com
+## Link to search for UFO sightings:
+https://ufo-views.herokuapp.com/
 
 ## Background
 
-WAKE UP SHEEPLE! The extra-terrestrial menace has come to Earth and we here at `ALIENS-R-REAL` have collected all of the eye-witness reports we could to prove it! This information is now transmitted online for the world to see so the matter can finally be put to rest.
+The extra-terrestrial menace has come to Earth and we here at `ALIENS-R-REAL` have collected all of the eye-witness reports we could to prove it! This information is now transmitted online for the world to see so the matter can finally be put to rest.
 
-For this challenge, code was written that created a table dynamically based upon a [dataset provided]. Also needed to allow users to be able to filter the table data for specific values. For this project, JavaScript, HTML, CSS, and D3.js is used for the web pages. 
+For this project, JavaScript, HTML, CSS, and D3.js is used to create a table based upon a [dataset provided]. Site users are able to filter the table data for specific values. 
 
 ## Project Overview
 
